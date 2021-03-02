@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <credibanco_checkout>
+                <model>Interrapidisimo\Credibanco\Model\Method\Checkout</model>
+                <title>Credibanco Checkout</title>
+                <active>0</active>
+                <order_status>payment_review</order_status>
+                <transaction_type>payment</transaction_type>
+                <shop_id />
+                <shop_key />
+                <domain_checkout />
+                <domain_gateway />
+                <card>1</card>
+                <card_halva>0</card_halva>
+                <erip>0</erip>
+                <erip_service_no>99999999</erip_service_no>
+                <min_order_total>0.01</min_order_total>
+                <enable_logging>0</enable_logging>
+                <test_mode>1</test_mode>
+                <allowspecific>0</allowspecific>
+                <allow_specific_currency>0</allow_specific_currency>
+                <group>credibanco</group>
+            </credibanco_checkout>
+            <credibanco_direct>
+                <model>Interrapidisimo\Credibanco\Model\Method\Direct</model>
+                <title>Credibanco Direct</title>
+                <active>0</active>
+                <order_status>payment_review</order_status>
+                <transaction_type>payment</transaction_type>
+                <shop_id />
+                <shop_key />
+                <domain_gateway />
+                <card>1</card>
+                <min_order_total>0.01</min_order_total>
+                <enable_logging>0</enable_logging>
+                <test_mode>1</test_mode>
+                <allowspecific>0</allowspecific>
+                <allow_specific_currency>0</allow_specific_currency>
+                <group>credibanco</group>
+            </credibanco_direct>
+        </payment>
+    </default>
+</config>

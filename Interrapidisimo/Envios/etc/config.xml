@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default> 
+		<carriers>
+			<envios>
+				<model>Interrapidisimo\Envios\Model\Carrier\Envios</model>
+				<active>1</active>
+				<name>Interrapidisimo</name>
+				<title>Interrapidisimo</title>
+                                <free_service>0</free_service>
+                                <free_title>Free</free_title>
+                                <free_method>Free</free_method>
+				<express_enabled>1</express_enabled>
+				<express_title>Express delivery</express_title>
+				<express_price>4</express_price>
+				<business_enabled>1</business_enabled>
+				<business_title>Business delivery</business_title>
+				<business_price>5</business_price>
+				<specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+			</envios>
+		</carriers>
+	</default>
+</config>

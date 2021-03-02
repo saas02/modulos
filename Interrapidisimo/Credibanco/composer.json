@@ -1,0 +1,57 @@
+{
+  "name": "interrapidisimo/credibanco-magento2-payment-module",
+  "description": "Credibanco Magento 2 payment module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "Interrapidisimo",
+          "email": "ingenierosenior.desarrollo2@interrapidisimo.com",
+          "homepage": "https://www.interrapidisimo.com"
+      }
+  ],
+  "keywords": [
+      "credibanco",
+      "ecomcharge",
+      "bepaid",
+      "magento2_module",
+      "magento2_payment_module",
+      "payment_gateway",
+      "magento2_payment_credibanco",
+      "payment_processing",
+      "magento2_payment_processing",
+      "e-commerce",
+      "visa",
+      "mastercard",
+      "belkart",
+      "erip",
+      "halva",      
+      "debit_card",
+      "credit_card",
+      "authorize",
+      "capture",
+      "recurring",
+      "refund",
+      "void",
+      "3d-secure",
+      "fraud",
+      "chargeback"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0",
+    "magento/module-sales": "*",
+    "magento/module-quote": "*",
+    "magento/module-checkout": "*",
+    "magento/module-payment": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Interrapidisimo\\Credibanco\\": ""
+    }
+  }
+}
